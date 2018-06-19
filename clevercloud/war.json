@@ -1,0 +1,11 @@
+{
+  "deploy": {
+    "container": "TOMCAT8",
+    "war": [
+      {
+        "file": "jenkins-1.651.3.war",
+        "context": "/"
+      }
+    ]
+  }
+}
